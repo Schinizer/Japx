@@ -22,7 +22,7 @@ It works by transfering Dictionary to Dictionary, so you can use Codable, Unbox,
 
   s.requires_arc = true
   s.platform = :ios, :osx
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.10'
   s.swift_version = '5.0'
 
@@ -41,7 +41,7 @@ It works by transfering Dictionary to Dictionary, so you can use Codable, Unbox,
   s.subspec 'Alamofire' do |sp| 
     sp.source_files = 'Japx/Classes/Alamofire/**/*'
     sp.dependency 'Japx/Core'
-    sp.dependency 'Alamofire', '~> 4.8'
+    sp.dependency 'Alamofire', '~> 5.0.0-rc.2'
   end
 
   s.subspec 'RxAlamofire' do |sp| 
@@ -65,7 +65,7 @@ It works by transfering Dictionary to Dictionary, so you can use Codable, Unbox,
   s.subspec 'Moya' do |sp|
     sp.source_files = 'Japx/Classes/Moya/**/*'
     sp.dependency 'Japx/Core'
-    sp.dependency 'Moya/RxSwift', '~> 13.0'
+    sp.dependency 'Moya/RxSwift', '~> 14.0.0-beta.4'
   end
   
   s.subspec 'RxMoya' do |sp|
